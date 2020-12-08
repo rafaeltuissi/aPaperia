@@ -46,7 +46,7 @@ header .container {
   width: 5em; }
 
 .menu-opcoes a {
-  color: white;
+  color: #FFF;
   text-decoration: none; }
 
 .menu-opcoes a:hover {
@@ -57,7 +57,7 @@ header .container {
   background: url(../imagens/destaque.jpg) center bottom repeat-x;
   -webkit-background-size: cover;
   background-size: cover;
-  color: white;
+  color: #FFF;
   height: 330px;
   padding-top: 10em; }
 
@@ -133,10 +133,10 @@ header .container {
   background: #1e2c35; }
 
 .planos h2 {
-  color: #fff; }
+  color: #FFF; }
 
 .plano {
-  background: white;
+  background: #FFF;
   width: 18em;
   display: inline-block;
   margin: 1em 0 0 1.4em;
@@ -146,7 +146,7 @@ header .container {
   background: #dedede; }
 
 .plano h3 {
-  color: #fff;
+  color: #FFF;
   font-size: 1.8em;
   background: #66DDDD;
   text-align: center;
@@ -178,7 +178,7 @@ header .container {
 .plano button {
   background: #66DDDD;
   border: 0;
-  color: #fff;
+  color: #FFF;
   width: 210px;
   height: 38px;
   font-size: 1.2em;
@@ -260,7 +260,7 @@ textarea {
   margin: 0 auto;
   background: #66DDDD;
   border: 0;
-  color: #fff;
+  color: #FFF;
   width: 210px;
   height: 38px;
   font-size: 1.2em;
@@ -323,7 +323,7 @@ footer .container img {
   display: inline; }
 
 footer a {
-  color: #fff;
+  color: #FFF;
   text-decoration: none; }
 
 .social li {
