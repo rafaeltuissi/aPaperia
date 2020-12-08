@@ -4,10 +4,12 @@ $white-color: #FFF;
 $radius: 0.3em;
 
 
-@mixin rounded-border {
+@mixin rounded-border($radius: 0.3em) {
   -webkit-border-radius: $radius;
   border-radius: $radius;
 }
+
+
 
 @mixin default-shadow {
     -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
@@ -110,7 +112,7 @@ header .container {
   border: 0;
   padding: .6em;
   font-size: 1.2em;
-  @include rounded-border;
+  @include rounded-border(50px);
   @include default-shadow;
   font-weight: bold;
 }
