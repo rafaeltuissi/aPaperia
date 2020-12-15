@@ -65,12 +65,12 @@
   height: 38px;
   font-size: 1.2em;
   @include rounded-border;
-  @include default-shadow;
+  @extend %default-shadow;
   margin-left: 2em;
 }
 
 .icone-check, .icone-x {
-  background: url(../imagens/sprite.png) no-repeat;
+  background: url(css/imagens/sprite.png) no-repeat;
   width: 18px;
   height: 18px;
 }

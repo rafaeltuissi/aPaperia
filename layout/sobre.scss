@@ -29,7 +29,7 @@
   display: inline-block;
   width: 50px;
   height: 60px;
-  @include image-replacement;
+  @extend %image-replacement;
   background-position: center;
   margin: 1em 1.5em 0 0;
 }
@@ -47,5 +47,5 @@
 }
 
 .plataformas li:nth-child(4) {
-  background-image: url(../imagens/logo-blackberry.png);
+  background-image: url(css/imagens/logo-blackberry.png);
 }
